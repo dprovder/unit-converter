@@ -3,8 +3,8 @@
 
 <html>
 <head>
-	<style>
-		body {
+<style>
+	body {
 		    background-image: url(<%= @gif %>);
 		}
 		div {
@@ -13,21 +13,21 @@
 		  left: 50%;
 		  transform: translate(-50%, -50%);
 		}
-	</style>
+  #result {
+    
+  }
+ </style>
 </head>
 <div>
 	<img src="http://i.giphy.com/tJW2EtfYWyABG.gif" />
 </div>
 
-  <body>
   
+  <body>
+  <div id="result">
   <h1>Result<h1>
   
   <h2> <%= @output%> </h2>
-
-
-
-
+    </div>
 </body>
-
 </html>
